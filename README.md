@@ -12,11 +12,13 @@ Schematic of the Tuner:
     Description: Initializes the PIC24FJ64GA002 for A/D conversion with Timer3 as well as initializing Timer 1 for sampling frequency.
     Arguments: No arguments.
     Returns: No returns.
+    
 ## Signal Processing Library
   ### double getFreq()
     Description: Utilizes the zero-crossing signal processing method to calculate and return the frequency of the signal input to the ADC.
     Arguments: No arguments.
     Returns: A double representing the calculated frequency.
+    
 ## Buffer Library
   ### void initAdcBuffer()
     Description: Initializes the ADC circular buffer for use.
@@ -44,6 +46,7 @@ Schematic of the Tuner:
     Description: Finds and returns the median value of the frequency circular buffer.
     Arguments: No arguments.
     Returns: A double representing the median value of the frequency circular buffer.
+    
 ## LCD Library
   ### void delay_ms(unsigned int ms)
     Description: A simple delay function that  repeats nop instructions to create a delay.
@@ -71,6 +74,7 @@ Schematic of the Tuner:
     Description: Prints a string of characters onto the LCD screen based off the ASCII table using I2C. A while loop is used as we don't want to keep resending the start bit during the string.
     Arguments: ‘s’: string of characters to display on the LCD screen.
     Returns: No returns.
+    
 ## Output Library
   ### void display(void)
     Description: Prints “note” on the LCD.
