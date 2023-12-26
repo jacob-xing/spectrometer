@@ -6,6 +6,22 @@ To convey this information, the microcontroller employs the I2C protocol to comm
 Schematic of the Tuner:
 <img width="978" alt="Screenshot 2023-12-26 at 2 11 01 PM" src="https://github.com/jacob-xing/spectrometer/assets/121461222/7f8e7ce5-5e8e-4ac6-adaf-1938b2bf48c1">
 
+## Hardware
+Microchip PIC24FJ64GA002 Microcontroller
+
+Electret Microphone Amplifier MAX9814
+
+I2C Small LCD Board (3.3V)
+
+Microchip Snap Programmer
+
+LT1006 Single Supply Op Amp
+
+Resistors
+  The following resistor values were used: 10 Ω, 1000 Ω, 10000 Ω.
+Capacitors
+  The following capacitor values were used: 2.2 μF, 10 nF.
+
 
 ## Input Library
   ### void mic_init()
