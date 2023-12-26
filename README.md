@@ -7,15 +7,15 @@ Schematic of the Tuner:
 <img width="978" alt="Screenshot 2023-12-26 at 2 11 01 PM" src="https://github.com/jacob-xing/spectrometer/assets/121461222/7f8e7ce5-5e8e-4ac6-adaf-1938b2bf48c1">
 
 ## Hardware
-Microchip PIC24FJ64GA002 Microcontroller
+[Microchip PIC24FJ64GA002 Microcontroller](https://www.microchip.com/en-us/product/pic24fj64ga002)
 
-Electret Microphone Amplifier MAX9814
+[Electret Microphone Amplifier MAX9814](https://www.adafruit.com/product/1713)
 
-I2C Small LCD Board (3.3V)
+[I2C Small LCD Board (3.3V)](https://international.switch-science.com/catalog/1405/)
 
-Microchip Snap Programmer
+[Microchip Snap Programmer](https://www.microchip.com/en-us/development-tool/PG164100)
 
-LT1006 Single Supply Op Amp
+[LT1006 Single Supply Op Amp](https://www.digikey.com/en/products/detail/analog-devices-inc/LT1006S8-TRPBF/960108)
 
 Resistors
   The following resistor values were used: 10 Ω, 1000 Ω, 10000 Ω.
